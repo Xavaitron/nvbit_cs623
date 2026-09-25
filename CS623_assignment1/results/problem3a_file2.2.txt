@@ -1,0 +1,3 @@
+Warp memory references: 786432
+Thread memory accesses: 25165824
+Memory divergence: 0.052061398824

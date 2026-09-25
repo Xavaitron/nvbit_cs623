@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Keep compressed assignment data out of regular Git history.
+CS623_assignment1/*.gz filter=lfs diff=lfs merge=lfs -text
+CS623_assignment1/results/*.gz filter=lfs diff=lfs merge=lfs -text

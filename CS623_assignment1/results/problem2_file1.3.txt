@@ -1,0 +1,3 @@
+Warp instructions: 30408524
+Unique instructions: 19
+Unique 32-byte instruction cache blocks: 10

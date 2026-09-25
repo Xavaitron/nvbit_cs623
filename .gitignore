@@ -1,0 +1,16 @@
+# Raw assignment inputs and traces are stored as compressed .gz files.
+# Decompress the archives in place before running the assignment tools.
+/CS623_assignment1/file1.[123]
+/CS623_assignment1/file2.[123]
+/CS623_assignment1/results/mem_file2.*.log
+
+# Local build and editor artifacts.
+*.o
+*.so
+__pycache__/
+.vscode/
+
+# Download NVIDIA's NVBit release separately; only assignment changes are tracked.
+/nvbit_release_x86_64/
+/.nvbit_official_compare/
+/.nvbit_official_compare.tar.bz2
